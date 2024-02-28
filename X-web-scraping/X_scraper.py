@@ -16,6 +16,7 @@ from selenium.common.exceptions import NoSuchElementException
 ##### LOGGING INTO TWITTER #####
 
 # assign driver and go to website
+# need to locate path for chromedriver
 driver = webdriver.Chrome(service = Service('/Users/jgg5264/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/Twitter scraping/chromedriver-mac-arm64/chromedriver'))
 driver.get("https://www.twitter.com/login")
 sleep(5)
