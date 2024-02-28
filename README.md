@@ -1,15 +1,15 @@
-# Twitter-web-scraper
-## Basic web scraper to get tweet and user info for a given search. 
+# X(FKA Twitter)-web-scraper
+## Basic web scraper to extract tweet (i.e., post) and user info for a given search. 
 
-The web scraper is functional as of 2024-02-28. It will likely need to be updated over time to reflect changes in Twitter's web layout or edge cases not originally considered.
+The web scraper is functional as of 2024-02-28. It will likely need to be updated over time to reflect changes in X's web layout or edge cases not originally considered.
 
 Generally, The web scraper is designed to
 
-(1) query tweets using search terms
+(1) query posts using search terms
 
-(2) extract tweet content for returned tweets
+(2) extract post content 
 
-(3) extract profile-level info for those who tweeted (total posts, number of followers)
+(3) extract profile-level info for those who posted (total posts, number of followers)
 
 
 
