@@ -3,7 +3,7 @@
 
 The web scraper is functional as of 2024-02-28. It will likely need to be updated over time to reflect changes in X's web layout or edge cases not originally considered.
 
-Generally, The web scraper is designed to
+Generally, the web scraper is designed to
 
 (1) query posts using search terms
 
