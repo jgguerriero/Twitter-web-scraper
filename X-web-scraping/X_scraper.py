@@ -23,16 +23,16 @@ sleep(5)
 
 # navigate to login and enter email
 username_login = driver.find_element(By.XPATH, "//input[@name]")
-username_login.send_keys('josephgguerriero@gmail.com')
+username_login.send_keys('josephgguerriero@gmail.com') # replace with your email
 username_login.send_keys(Keys.RETURN)
 sleep(5)
 
-# if there is an intemerediate login page, then enter username
+# run next chunk if there is an intemerediate login page, then enter username
 # this happens if you try to login too many times 
-username_extra = driver.find_element(By.XPATH, "//input")
-username_extra.send_keys("_joeguerriero") # put in your handle
-username_extra.send_keys(Keys.RETURN)
-sleep(5)
+# username_extra = driver.find_element(By.XPATH, "//input")
+# username_extra.send_keys("_joeguerriero") # replace with your handle
+# username_extra.send_keys(Keys.RETURN)
+# sleep(5)
 
 # enter my password and log in 
 my_password = getpass() # need to pause here and manually enter your login password
