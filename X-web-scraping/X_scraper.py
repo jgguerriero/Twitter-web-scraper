@@ -134,7 +134,10 @@ for i in range(0,len(full_scrape)):
 full_scrape_user_info.shape
 full_scrape_user_info.head()    
 
-# merge data and combine
+
+
+##### MERGE POST AND USER DATA #####
+
 final_data = pd.merge(full_scrape, full_scrape_user_info, on=0)
 final_data.columns = ["user_link", "post_text", "post_likes", "post_time", "verified badge", "search_term", "user_n_posts", "user_followers_n"]
 
