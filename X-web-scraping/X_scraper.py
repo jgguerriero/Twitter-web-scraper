@@ -47,7 +47,7 @@ password_entry.send_keys(Keys.RETURN)
 search_terms = "threat to humanity lang:en -filter:replies" # this could be some kind of array if you want to loop through different searches
 n_cases = 50 # small number just for demonstration 
 
-# get to posts specific to the search term (again, this could be loop if you have multiple terms)
+# get to posts specific to the search term (again, this could be looped if you have multiple terms)
 search_term_location = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
 search_term_location.send_keys(search_terms)
 search_term_location.send_keys(Keys.RETURN)
