@@ -95,7 +95,7 @@ while len(full_scrape) < n_cases:
     # add extracted post collection characterists to the common dataframe 
     full_scrape = pd.concat([full_scrape, page_scrapes], axis=0)
     
-    # EXLCLUSIONS 
+    # EXCLUSIONS 
     # only include cases that have tweets greater than 200 characters in length (can be modified)
     full_scrape = full_scrape.loc[full_scrape[1].str.len() > 100]
     
