@@ -1,5 +1,5 @@
 # X(FKA Twitter)-web-scraper
-## Basic web scraper to extract tweet (i.e., post) and user info for a given search. 
+## Basic web scraper to extract tweet (i.e., post) and user info for a given keyword search. 
 
 The web scraper is functional as of 2024-02-28. It will likely need to be updated over time to reflect changes in X's web layout or edge cases not originally considered.
 
